@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../Downloads/qr-code-component-main/design"
+	},
+	{
+		"path": "../Downloads/qr-code-component-main/images"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "codingding"
+  }
+}

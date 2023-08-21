@@ -1,0 +1,202 @@
+/* 
+https://unsplash.com/photos/6zO5VKogoZE
+https://unsplash.com/photos/JM-qKEd1GMI
+https://unsplash.com/photos/jZyacqaR4iI
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* outline: 1px solid black; */
+}
+
+html {
+  font-size: 16px;
+  font-family: "Quicksand", sans-serif;
+}
+
+:root {
+  --clr-pckr-red: red;
+  --clr-pckr-blue: blue;
+  --clr-pckr-black: black;
+  --clr-pckr-duo-moss_black: linear-gradient(to right, #989737 50%, #000 50%);
+  /*Moss Green - Black*/
+  --clr-pckr-duo-savoy_black: linear-gradient(to right, #485fb9 50%, #000 50%);
+  /*Savoy - Black*/
+  --clr-pckr-duo-blush_black: linear-gradient(to right, #d4668e 50%, #000 50%);
+  /*Blush - Black*/
+  --clr-pckr-duo-persian-red_white: linear-gradient(to right,
+      #ce3329 50%,
+      #fff 50%);
+  /*Persian Red - White*/
+  --clr-pckr-duo-black_white: linear-gradient(to right, #000 50%, #fff 50%);
+  /*Black - White*/
+}
+
+p {
+  color: #b9b9b9;
+}
+
+
+.shoes {
+  border-radius: 15px;
+  max-width: 300px;
+  min-width: 280px;
+  height: auto;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.shoes img {
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  min-height: 400px;
+}
+
+.selection {
+  display: flex;
+  flex-direction: column;
+  min-height: 33%;
+  background-color: rgb(237, 231, 231);
+  padding: 1rem;
+  border-radius: 15px;
+  padding-top: 1rem;
+}
+
+.price {
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  color: #000;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.choice {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 2;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.space {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  color: #b9b9b9;
+}
+
+.color-picker-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 10px;
+  padding-top: 1rem;
+}
+
+/* Color Picker erster Schuh */
+.shoes1 .color-picker-container .color-picker:nth-of-type(1) {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--clr-pckr-blue);
+}
+
+.shoes1 .color-picker-container .color-picker:nth-of-type(2) {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--clr-pckr-red);
+}
+
+.shoes1 .color-picker-container .color-picker:nth-of-type(3) {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--clr-pckr-black);
+}
+
+/* Color Picker zweiter Schuh */
+
+.shoe2 .color-picker-container .color-picker:nth-of-type(1) {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--clr-pckr-duo-moss_black);
+}
+
+.shoe2 .color-picker-container .color-picker:nth-of-type(2) {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--clr-pckr-duo-savoy_black);
+}
+
+.shoe2 .color-picker-container .color-picker:nth-of-type(3) {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--clr-pckr-duo-blush_black);
+}
+
+/* Color Picker dritter Schuh */
+
+.shoe3 .color-picker-container .color-picker:nth-of-type(1) {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--clr-pckr-duo-persian-red_white);
+}
+
+.shoe3 .color-picker-container .color-picker:nth-of-type(2) {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--clr-pckr-duo-black_white);
+}
+
+.cart-btn {
+  background-color: #485fb9;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-top: 2rem;
+}
+
+/*
+.color:nth-of-type(1) {
+  background-color: blue;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.color:nth-of-type(2) {
+  background-color: red;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.color:nth-of-type(3) {
+  background-color: black;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+*/
